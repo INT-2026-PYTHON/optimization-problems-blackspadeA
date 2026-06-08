@@ -99,8 +99,6 @@ def count_pairs_brute(nums, target):
                 count += 1
     return count
 
-
-
 def count_pairs_fast(nums, target):
     freq = {}
     count = 0
